@@ -21,7 +21,8 @@ The site is three static pages that share one stylesheet. It has no build step a
 | `privacy.html` | The privacy policy. |
 | `support.html` | Frequently asked questions and how to get in touch. |
 | `assets/site.css` | Styles shared by every page. |
-| `assets/gallery/` | Frames rendered by the app's own templates from its sample photos. |
+| `assets/gallery/` | Frames rendered by the app's own templates from photos by Halans Photography. |
+| `assets/apps/` | Icons for the other iPhone Duo apps in the cross links, from their own sites. |
 | `assets/icon.png` | App icon, 512 px. |
 | `assets/og-image.png` | Social sharing preview, 1200 × 630 px. |
 | `assets/apple-touch-icon.png` | Home Screen icon for the site, 180 px. |
@@ -31,4 +32,4 @@ The site is three static pages that share one stylesheet. It has no build step a
 
 When the app is live, replace the "Coming soon to the App Store" button in `index.html` with the App Store badge and link, and add `<meta name="apple-itunes-app" content="app-id=…">` to the page head.
 
-iPhone and iPhone Duo are trademarks of Apple Inc.
+Photography © Halans Photography. iPhone and iPhone Duo are trademarks of Apple Inc.
