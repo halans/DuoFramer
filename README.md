@@ -29,7 +29,8 @@ The site is three static pages that share one stylesheet. It has no build step a
 | `assets/favicon.ico` | Browser tab icon, 16, 32 and 48 px. |
 | `assets/favicon-192.png` | Browser tab icon for high-resolution displays, 192 px. |
 | `assets/favicon.png` | The icon in the navigation bar, 64 px. |
+| `assets/app-store-badge.svg` | Apple's "Download on the App Store" badge. |
 
-When the app is live, replace the "Coming soon to the App Store" button in `index.html` with the App Store badge and link, and add `<meta name="apple-itunes-app" content="app-id=…">` to the page head.
+[Get DuoFramer on the App Store](https://apps.apple.com/app/duoframer-photo-frames/id6837866426). Every page has the `apple-itunes-app` meta tag, so Safari on iPhone and iPad shows the Smart App Banner.
 
 Photography © Halans Photography. iPhone and iPhone Duo are trademarks of Apple Inc.

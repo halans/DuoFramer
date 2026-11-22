@@ -141,6 +141,12 @@ section + section { border-top: 1px solid var(--line); }
 
 .requires { color: var(--muted); font-size: 0.9rem; }
 
+/* Apple's "Download on the App Store" badge, used unaltered at its required minimum size or larger. */
+.app-store-badge { display: inline-block; line-height: 0; }
+.app-store-badge img { height: 60px; width: auto; }
+.app-store-badge:hover { filter: brightness(1.15); }
+.cta.center { justify-content: center; }
+
 /* Prints: frames laid on the table at slight angles. */
 
 .prints { position: relative; min-height: 520px; }
