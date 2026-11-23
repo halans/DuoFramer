@@ -24,7 +24,8 @@ The site is three static pages that share one stylesheet. It has no build step a
 | `assets/gallery/` | Frames rendered by the app's own templates from photos by Halans Photography. |
 | `assets/apps/` | Icons for the other iPhone Duo apps in the cross links, from their own sites. |
 | `assets/icon.png` | App icon, 512 px. |
-| `assets/og-image.png` | Social sharing preview, 1200 × 630 px. |
+| `assets/og-image.png` | Link preview (Open Graph and X card), 1200 × 630 px, made by `Marketing/Headers/make_headers.py` in the app repo. |
+| `robots.txt`, `sitemap.xml` | Tell search engines what to index. Update `lastmod` in the sitemap when a page changes. |
 | `assets/apple-touch-icon.png` | Home Screen icon for the site, 180 px. |
 | `assets/favicon.ico` | Browser tab icon, 16, 32 and 48 px. |
 | `assets/favicon-192.png` | Browser tab icon for high-resolution displays, 192 px. |
